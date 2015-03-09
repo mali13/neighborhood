@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  favorite: MyString
+  current: MyString
+  destination: MyString
+  email: MyString
+
+two:
+  favorite: MyString
+  current: MyString
+  destination: MyString
+  email: MyString

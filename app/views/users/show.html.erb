@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Favorite:</strong>
+  <%= @user.favorite %>
+</p>
+
+<p>
+  <strong>Current:</strong>
+  <%= @user.current %>
+</p>
+
+<p>
+  <strong>Destination:</strong>
+  <%= @user.destination %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @user.email %>
+</p>
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>
